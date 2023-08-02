@@ -1,0 +1,58 @@
+.title {
+    text-align: center;
+}
+
+.footer {
+    text-align: end;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    margin-left: 30px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+img.redimension {
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+
+}
+
+.name {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    z-index: 1;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+
+}
+
+.coincidencia {
+    pointer-events: none;
+    /* Desactivar eventos de clic */
+    opacity: 0.5;
+    /* Opacidad reducida para simular bloqueo */
+}
+
+#coincidencia {
+    pointer-events: none;
+    /* Desactivar eventos de clic */
+    opacity: 0.7;
+    /* Opacidad reducida para simular bloqueo */
+}
